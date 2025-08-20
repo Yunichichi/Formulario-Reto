@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Yunior', Times, serif;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #706363;
+    max-width: 25rem;
+    margin: 20px auto;
+}
+
+.card h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #044655;
+}
+
+.card label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.card input {
+    padding: 10px;
+    border: 1px solid #b0acac;
+    border-radius: 5px;
+}
+
+.card textarea {
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+
+.send {
+    margin-top: 20px;
+    min-width: 100%;
+    padding: 10px;
+    background-color: #31566e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
